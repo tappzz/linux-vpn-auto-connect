@@ -13,3 +13,7 @@
 >save
 
 >quit
+
+Reboot your PC
+
+
