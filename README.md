@@ -2,7 +2,9 @@
 
 >nmcli connection show
 
->nmcli connection edit *e.g. "Wired connection 1"* 
+## In this list, you need to find the type of your actual Internet connection, e.g., "Wired connection 1" and the UUID number of your current VPN connection.
+
+>nmcli connection edit "Wired connection 1" 
 
 >set connection.secondaries *insert your VPN UUID*
 
