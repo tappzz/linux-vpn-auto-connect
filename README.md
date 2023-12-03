@@ -24,7 +24,7 @@ If you want to roll back these settings, you should open the nmcli menu again an
 
 >save
 
-Then you could type the following line to check this out:
+Then you could type the following command to check this out:
 
 >print connection.secondaries 
 
