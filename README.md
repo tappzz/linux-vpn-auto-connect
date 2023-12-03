@@ -16,4 +16,18 @@
 
 Reboot your PC
 
+If you want to roll back these settings, you should open the nmcli menu again and change the connection.secondaries by typing the following lines:
+
+>nmcli connection edit "Wired connection 1" 
+
+>set connection.secondaries *leave this field empty* and press Enter
+
+>save
+
+Then you could type the following line to check this out:
+
+>print connection.secondaries 
+
+>quit
+
 
