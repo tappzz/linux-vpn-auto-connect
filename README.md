@@ -7,8 +7,8 @@
 >nmcli connection edit "Wired connection 1" 
 
 >set connection.secondaries *insert your VPN UUID* and press Enter
-
->print connection.secondaries to check this out
+### Now you can check the output by typing
+>print connection.secondaries
 
 >save
 
@@ -24,7 +24,7 @@ If you want to roll back these settings, you should open the nmcli menu again an
 
 >save
 
-Then you could type the following command to check this out:
+Then you can enter the following command to see if it worked:
 
 >print connection.secondaries 
 
