@@ -1,5 +1,6 @@
 # Configuring VPN auto-connect on system startup on Linux
 
+
 >nmcli connection show
 
 ### In this list, you need to find the name of your actual Internet connection, e.g., "Wired connection 1", and the UUID number of your current VPN connection
